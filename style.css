@@ -1,0 +1,26 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Fundo branco */
+    padding: 20px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 15px 32px; /* Tamanho do botão */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Efeito de hover (quando o mouse passa por cima do botão) */
+button:hover {
+    background-color: #45a049; /* Cor mais escura */
+}
